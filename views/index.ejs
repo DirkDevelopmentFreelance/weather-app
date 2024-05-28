@@ -3,11 +3,39 @@
     <div class="app-container">
         <form method="post" class="frm">
             <input type="text" class="location-input" id="location" placeholder="Enter Location Here...">
-            <button type="submit" class="submit-btn" formaction="/location-info">Search</button>
+            <button type="submit" class="btn" formaction="/location-info">Search</button>
         </form>
-
+        <hr class="hr-top"/>
         <div class="output-container">
-            <img>
+            <div class="output">
+                <div class="description">
+                    <p class="description-text">Condition:</p>
+                    <img src="/images/sunny.svg" class="output-img">
+                </div>
+                <p class="output-text" aria-roledescription="Weather Condition">Sunny</p>
+            </div>
+            <div class="output">
+                <div class="description">
+                    <p class="description-text">Humidity:</p>
+                    <img src="/images/humidity.svg" class="output-img">
+                </div>
+                <p class="output-text" aria-roledescription="Weather humidity">Sunny</p>
+            </div>
+            <div class="output">
+                <div class="description">
+                    <p class="description-text">Wind Speed:</p>
+                    <img src="/images/wind_speed.svg" class="output-img">
+                </div>
+                <p class="output-text">Sunny</p>
+            </div>
+            <hr class="hr-bottom">
+            <div class="output">
+                <img src="/images/thermometer.svg" class="output-img thermometer">
+                <p class="output-text min">MIN°C</p>
+                <p class="output-text max">MAX°C</p>
+                <button class="btn toggle">Toggle Unit</button>
+            </div>
+
         </div>
     </div>
 

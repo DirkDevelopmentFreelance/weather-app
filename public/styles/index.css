@@ -1,5 +1,10 @@
+:root {
+    font-size: 18px;
+}
+
 * {
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -13,8 +18,9 @@ main {
 }
 
 .app-container {
-    max-width: 50%;
-    height: 500px;
+    max-width: 360px;
+    height: 27.77rem;
+    margin: 10% auto;
     padding: 8px;
     background-color: #F0F0F0;
     border-radius: 20px;
@@ -23,8 +29,8 @@ main {
 
 .location-input {
     width: 65%;
-    height: 48px;
-    padding: 16px 8px;
+    height: 2.66rem;
+    padding: 0.88rem 0.44rem;
     border-radius: 8px;
     color: #828282;
     border: none;
@@ -35,16 +41,73 @@ main {
     color: #FF8A00;
 }
 
-.submit-btn {
+.btn {
     background-color: #FF4D00;
     color: #fff;
     width: 35%;
-    height: 48px;
+    height: 2.66rem;
     border: none;
     border-radius: 8px;
 }
 
+.toggle {
+    margin-top: 0.5rem;
+}
+
 .frm {
     display: flex;
-    gap: 5px;
+    gap: 0.22rem;
+}
+
+.output {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
+
+.output-text {
+    color: #FF8A00;
+    font-size: 20px;
+}
+
+.min {
+    margin-left: -2rem;
+}
+
+.max {
+    margin-left: 0;
+}
+
+.output-img {
+    width: 25%;
+    margin: 0 2rem;
+} 
+
+.thermometer {
+    margin: 0 0;
+    margin-left: -1.6rem;
+
+}
+
+.description {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description-text {
+    color: #FF8A00;
+    margin-right: -2rem;
+}
+
+hr {
+    border: 2px solid #FF8A00;
+    margin-bottom: 2rem;
+}
+
+.hr-bottom {
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
