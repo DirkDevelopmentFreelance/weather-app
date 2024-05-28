@@ -17,12 +17,16 @@ main {
     height: 100%;
 }
 
+h1 {
+    color: #FF8A00;
+}
+
 .app-container {
-    max-width: 360px;
-    height: 27.77rem;
+    max-width: 390px;
+    height: 35.77rem;
     margin: 10% auto;
     padding: 8px;
-    background-color: #F0F0F0;
+    background-color: #fff;
     border-radius: 20px;
     border: 5px solid #FF8A00;
 }
@@ -50,11 +54,36 @@ main {
     border-radius: 8px;
 }
 
+.btn:hover {
+    background-color: #FF8A00;
+    cursor: pointer;
+}
+
 .toggle {
     margin-top: 0.5rem;
+    width: 100%;
+}
+
+.unit-select {
+    width: 100%;
+    height: 2.66rem;
+    margin-top: 0.5rem;
+    padding: 0.88rem 0.44rem;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #FF4D00;
+    border: none;
+}
+
+.unit-select:hover {
+    background-color: #FF8A00;
 }
 
 .frm {
+    width: 100%;
+}
+
+.frm-top {
     display: flex;
     gap: 0.22rem;
 }
@@ -85,6 +114,10 @@ main {
     margin: 0 2rem;
 } 
 
+.img-special {
+    
+}
+
 .thermometer {
     margin: 0 0;
     margin-left: -1.6rem;
@@ -110,4 +143,8 @@ hr {
 .hr-bottom {
     margin-top: 2rem;
     margin-bottom: 0;
+}
+
+.temp {
+    font-size: 16px;
 }
