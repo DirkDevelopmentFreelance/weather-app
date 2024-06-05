@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import axios from "axios";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const API_KEY = "d433511140b8144ed1a0bf1f2c463ee8";
 const API_GEO_URL = "http://api.openweathermap.org/geo/1.0/direct";
